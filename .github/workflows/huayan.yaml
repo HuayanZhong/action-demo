@@ -7,9 +7,9 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "Hello World"
+      - run: echo "Hello World"
 
   job2:
     runs-on: windows-latest
     steps:
-      -run: node --version
+      - run: node --version
